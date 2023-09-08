@@ -1,0 +1,137 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 24px;
+    
+}
+#div-main{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body h2{
+    color: rgb(177, 176, 176);
+}
+
+.text2{
+    color: black; 
+}
+h3{
+    color: white;
+    font-size: 18px;
+}
+.result{
+    color: white;
+    font-size: 30px;    
+}
+.result-main {
+    background: linear-gradient(to bottom,rgb(103, 67, 255) ,rgb(49, 44, 234) ); 
+    border-radius: 20px;   
+    width: fit-content;
+    max-width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.result-main *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px;
+}
+.score{
+    background-color: #3b2bce;
+    border-radius: 100%;
+    height: 6rem;
+    width: 6rem;
+    background: linear-gradient(to bottom, rgb(77, 34, 201), rgb(70, 51, 237)); 
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.score h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.score p{
+    margin-top: 2px;
+    
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 45%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.summary  article{
+    justify-content: center;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+
+.summary>h2{
+    padding-left: 5%;
+    position: relative;
+    left: -2rem;
+    
+}
+
+.sum-obj{
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    max-height: 30%;
+}
+.a1{
+    background-color: rgba(255, 0, 0, 0.308);
+    color: red;
+    font-weight: bold;
+}
+.a2{
+    background-color: rgba(241, 241, 63, 0.267);
+    color: rgb(233, 216, 65);
+    font-weight: bold;
+}
+.a3{
+    background-color: rgba(172, 255, 47, 0.342);
+    color: green;
+    font-weight: bold;
+}
+.a4{
+    background-color: rgba(0, 0, 255, 0.329);
+    color: blue;
+    font-weight: bold;
+}
+
+.continue {
+    border-radius: 20px;
+    width: 282px;
+    height: 2rem;
+    background: linear-gradient(to bottom,rgb(103, 67, 255) ,rgba(43, 38, 184, 0.925) );
+    margin-top: 20px; 
+    margin-left: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+footer *{
+    font-size: 18px;
+}
